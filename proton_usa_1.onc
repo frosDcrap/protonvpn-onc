@@ -1,0 +1,38 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "Certificates": [
+    {
+      "GUID": "{dbe87612-ee27-46a5-847c-cdd4719fbc5c}",
+      "Type": "Authority",
+      "X509": "MIIFozCCA4ugAwIBAgIBATANBgkqhkiG9w0BAQ0FADBAMQswCQYDVQQGEwJDSDEVMBMGA1UEChMMUHJvdG9uVlBOIEFHMRowGAYDVQQDExFQcm90b25WUE4gUm9vdCBDQTAeFw0xNzAyMTUxNDM4MDBaFw0yNzAyMTUxNDM4MDBaMEAxCzAJBgNVBAYTAkNIMRUwEwYDVQQKEwxQcm90b25WUE4gQUcxGjAYBgNVBAMTEVByb3RvblZQTiBSb290IENBMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt+BsSsZg7+AuqTq7vDbPzfygtl9f8fLJqO4amsyOXlI7pquL5IsEZhpWyJIIvYybqS4s1/T7BbvHPLVEwlrq8A5DBIXcfuXrBbKoYkmpICGc2u1KYVGOZ9A+PH9z4Tr6OXFfXRnsbZToie8t2Xjv/dZDdUDAqeW89I/mXg36EkRHLyviZMtSjodB4gByQJwyYxPmBE1xCOqRwspIEUzu1ZqGSTkG1eQiOYIrdOF5cc7n2APyvBIcfvp/W3cpTOEmEBJ7/14RnXnHo0fcx61Inx/6ZxzKkW8BMdGGQF3tF6u2M0FjVN0lLH9S0ul1TgoOS56yEJ34hrJSRTqHuar3t/xdCbKFZjyXFZFNsXVvgJu36EkRHLyviZMtSjodB4gByQJwyYxPmBE1xG7LAjlvj5JlJ5aqO5gshdnqb9uIQeR2CdzcCJgklwRGCyDT1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6It2hwQ9FMs5w6ZV/X6ciTKo3etkX9nBD9ZzJPsGQsBUy7CzO1jK4W01+u3ItmQS+1s4xtcFxdFY8o/q1zoqBlxpe5MQIWN6QalryiET74gMHE/S5WrPlsq/gehxsdgc6GDUXG4dk8vn6OUMa6wb5wRO3VXGEc67IYm4mDFTYiPvLaFOxtndlUWuCruKcCAwEAAaOBpzCBpDAMBgNVHRMEBTADAQH/MB0GA1UdDgQWBBSDkIaYhLVZTwyLNTetNB2qV0gkVDBoBgNVHSMEYTBfgBSDkIaYhLVZTwyLNTetNB2qV0gkVKFEpEIwQDELMAkGA1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6zEaMBgGA1UEAxMRUHJvdG9uVlBOIFJvb36EkRHLyviZMtSjodB4gByQJwyYxPmBE1xIb3DQEBDQUAA4ICAQCYr7LpvnfZXBCxVIVc2ea1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6+g1NAh4vv1UIwLsczilMt87SjpJ25pZPyS3O+/VlI9ceZMvtGXdMGfXhTDp//zRoL1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6/inGRjZxpJCTQh8oc7CTziHZufS+Jkfpc4Rasr31fl7mHhJahF1j/ka/OOWmFbiHBNjzmNWPQInJm+0ygFqij5qs51OEvubR8yh5Mdq4TNuWhFuTxpqoJ87VKaSOx/Aefca44Etwcj4gHb7LThidw/kyzysZiWjyrbfX/31RX7QanKiMk2RDtgZaWi/lMfsl5O+6E2lJ1vo4xv9pW8225B5XeAeXHCfjV/vrrCFqeCprNF6a3Tn/LX6VNy3jbeC+167QagBOaoDA01XPOx7OdhsbGd7cJ5VkgyycZgLnT9zrChgwjx59JQosFEG1DsaAgHfpEl/N36EkRHLyviZMtSjodB4gByQJwyYxPmBE1x/sP7oiP5/gLmA/CIPNhdIYxaojbLjFPkftVjVPn49RqwqzJJPRN8BOyb94yhQ7KO4F3IcLT/y/dsWitY0ZH4lCnAVV/v2YjWAWS3OWyC8BFx/Jmc3WDK/yPwECUcPgHIeXiRjHnJt0Zcm23O2Q3RphpU+1SO3XixsXpOVOYP6rJIXW9bMZA1gTTlpi7A=="
+    }
+  ],
+  "NetworkConfigurations": [
+    {
+      "GUID": "{8b52467d-a6e9-4164-aa37-da7beb0184bf}",
+      "Name": "ProtonVPN (USA-FREE #1)",
+      "Type": "VPN",
+      "VPN": {
+        "Type": "OpenVPN",
+        "Host": "us-free-01.protonvpn.com",
+        "OpenVPN": {
+          "Port": 443,
+          "UserAuthenticationType": "Password",
+          "CompLZO": "false",
+          "SaveCredentials": true,
+          "Proto": "udp",
+          "KeyDirection": "1",
+          "RemoteCertTLS": "server",
+          "Cipher": "AES-256-CBC",
+          "Auth": "SHA512",
+          "RenegSec": 0,
+          "ServerCARefs": [
+            "{dbe87612-ee27-46a5-847c-cdd4719fbc5c}"
+          ],
+          "ClientCertType": "None",
+          "TLSAuthContents": "-----BEGIN OpenVPN Static key V1-----\n6acef036EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\n4236EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\n36EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\n75a672f158e2e2e936c3faa48b035a6d\ne1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6\n8ba1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6\n78a1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6\nd4736EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\nc36EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\ne1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6\n0c0b6080f56309192ab5aacd4b45f55d\na61GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6\n2df55785075f37d8c71dc8a42097ee43\n36EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\naeb8936EkRHLyviZMtSjodB4gByQJwyYxPmBE1x\n1GvzmW4PDo92bw6KoGSzTuynHTPJRVpHL6\n-----END OpenVPN Static key V1-----\n"
+        }
+      }
+    }
+  ]
+}
